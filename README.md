@@ -26,9 +26,9 @@ Once inside the container you can do:
 mix new .
 ```
 
-Or your language scaffolding tool, and it should be all present on the root directory of the project along side with the .devcontainer folder.
+Or your language scaffolding tool, and it should be all present on the root directory of the project along side with the `.devcontainer` folder.
 
 ## Changing versions
 
 For now to change the version, change the base image on the [Dockerfile](https://github.com/sleepiejohn/devcontainers/blob/main/elixir/.devcontainer/Dockerfile#L1).
-If necessity arises, it may be implemented as a series of ´ARG´ switches on the Dockerfile. 
+If necessity arises, it may be implemented as a series of `ARG` switches on the Dockerfile. 
