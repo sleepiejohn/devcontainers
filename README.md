@@ -15,7 +15,7 @@ For example to use the elixir one in a new project do the following:
 ```
 git clone https://github.com/sleepiejohn/devcontainers.git
 cd devcontainers
-cp devcontainers/elixir ~/myprojects/new_project
+cp devcontainers/elixir ~/myprojects/new_project -r
 cd ~/myprojects/new_project
 code .
 ```
