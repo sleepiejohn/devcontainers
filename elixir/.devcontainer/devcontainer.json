@@ -1,0 +1,14 @@
+{
+    "name": "Elixir",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "vscode",
+    "settings": {
+		"terminal.integrated.shell.linux": "/bin/ash"
+    },
+    "extensions": [
+      "jakebecker.elixir-ls",
+      "adamzapasnik.credo-linter"
+    ],
+}
